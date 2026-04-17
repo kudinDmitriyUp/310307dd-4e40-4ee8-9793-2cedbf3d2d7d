@@ -20,19 +20,19 @@ export default function App() {
       navItems={[
         {
           name: "About",
-          id: "about",
+          href: "#about",
         },
         {
           name: "Rooms",
-          id: "features",
+          href: "#features",
         },
         {
           name: "Rates",
-          id: "pricing",
+          href: "#pricing",
         },
         {
           name: "Contact",
-          id: "contact",
+          href: "#contact",
         },
       ]}
       ctaButton={{
