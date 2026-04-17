@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=var(--font-open-sans):wght@400;500;600;700&family=var(--font-inter):wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 @import "./styles/masks.css";
 @import "./styles/animations.css";
@@ -87,7 +88,7 @@
   --color-background-accent: var(--background-accent);
 
   /* Fonts */
-  --font-sans: "Inter", sans-serif;
+  --font-sans: var(--font-open-sans), sans-serif;
   --font-mono: monospace;
 
   /* Border Radius */
@@ -135,7 +136,7 @@ body {
   margin: 0;
   background-color: var(--background);
   color: var(--foreground);
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-open-sans), sans-serif;
   position: relative;
   min-height: 100vh;
   overscroll-behavior: none;
@@ -148,7 +149,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Inter", sans-serif;
+  font-family: var(--font-inter), sans-serif;
 }
 
 /* WEBILD_CARD_STYLE */
